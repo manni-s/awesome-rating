@@ -1,0 +1,18 @@
+/*------ Rating Part ------*/
+
+.rate {
+    font-size:25px;
+    color: #e3cf7a;
+    padding-left:5px;
+    cursor: pointer;
+}
+.active,.voted{color:#fa8989;}
+
+/*------ Rating Part ------*/
+
+
+
+#wrapper{width:800px;margin:0 auto;margin-top:150px}
+
+.item{width:330px;float:left;border:1px solid #ccc;padding:15px;margin-left:20px;box-shadow:1px 1px 10px #ccc;border-radius:5px}
+.title{min-height:150px;color:#444;font-face:tahoma}
