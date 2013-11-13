@@ -6,9 +6,10 @@ Awesome Rating - Jquery plugin to create rating system using Font Awesome
 
 Demo : **<a href="http://demo.pixelsurgelabs.com/awesome-rating">http://demo.pixelsurgelabs.com/awesome-rating</a>**
 
+
 Initialize
 ===========
-
+            <span class="rating" data-id="1" data-rating="0">
   
             $('.rating').awesomeRating({
                     num:5,
