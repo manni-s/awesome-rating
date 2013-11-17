@@ -61,7 +61,7 @@
              id=$this.parent().attr('data-id'),
              rate=parseInt($this.attr('data-rate'),10);
              
-          if(!$this.hasClass('voted'))
+          if(!$this.parent().hasClass('voted'))
           {
          $.post(opts.url,{
               id : id,             
@@ -72,7 +72,7 @@
               if(callback.type=='success')
               {
                $this.parent().attr('data-rating',callback.rate);
-               $this.parent().find('.rate').addClass('voted');
+               $this.parent().addClass('voted');
                fillStars($this.parent().find('.rate'),callback.rate);
                if(opts.success) opts.success(callback);
 
